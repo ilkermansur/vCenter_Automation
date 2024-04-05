@@ -160,13 +160,8 @@ json_data ={
     }
 }
 
-print (json_data)
-
-"""
 response = requests.post(url=clone_url, headers={"vmware-api-session-id": session_id}, json=json_data, verify=False)
 if response.status_code == 200:
     print ("VM cloned successfully")
 else:
     print (f"VM clone failed : {response.text}")
-
-"""
