@@ -1,3 +1,14 @@
+"""
+This Python script is written for a specific purpose and reflects its current state. However, no warranty is provided. 
+Usage of this script is entirely at the user's own risk. The developer  or  contributors cannot be held liable for any 
+direct or indirect damages that may arise from the use or misuse of this script.
+
+Developer: ilker MANSUR
+Email: imansur@morten.com.tr
+GitHub: github.com/ilkermansur
+
+"""
+
 import requests
 import urllib3
 from requests.auth import HTTPBasicAuth
