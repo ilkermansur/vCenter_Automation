@@ -36,7 +36,7 @@ session_id = get_session_id(username=username, password=password, vcenter_ip=vce
 # Vm Clone URL
 clone_url = f"https://{vcenter_ip}/api/vcenter/vm?action=clone"
 
-# Getting clone vm
+# Getting Clone vm
 response = requests.post(url=clone_url, headers={"vmware-api-session-id": session_id}, json=json_data, verify=False)
 if response.status_code == 200:
     print ("VM cloned successfully")
