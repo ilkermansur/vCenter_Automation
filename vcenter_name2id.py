@@ -124,7 +124,7 @@ def name_id_conversion (dst_datastore_name,dst_folder_name,dst_host_ip,dst_resou
             if dst_resource_pool_name == rp["name"]:
                 resource_pool_id = rp["resource_pool"]
             else:
-                continue
+                resource_pool_id = None
     else:
         print(f"Failed to get resource pool list. Status code: {response.status_code}")
     
