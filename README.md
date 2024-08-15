@@ -6,17 +6,17 @@
 
 METHODS                     <br>
 ---
-|  get_session_id           <br>
-|  get_vm_list              <br>
-|  get_vm_id                <br>
-|  get_folder_id            <br>
-|  get_folder_list          <br>
-|  get_datastore_id         <br>
-|  get_datastore_list       <br>
-|  get_host_id              <br>
-|  get_host_list            <br>
-|  get_resource_pool_id     <br>
-|  get_resource_pool_list   <br>
-|  delete_vm                <br>
-|  clone_vm                 <br>
+  get_session_id           <br>
+  get_vm_list              <br>
+  get_vm_id                <br>
+  get_folder_id            <br>
+  get_folder_list          <br>
+  get_datastore_id         <br>
+  get_datastore_list       <br>
+  get_host_id              <br>
+  get_host_list            <br>
+  get_resource_pool_id     <br>
+  get_resource_pool_list   <br>
+  delete_vm                <br>
+  clone_vm                 <br>
 
