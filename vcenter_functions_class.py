@@ -265,7 +265,7 @@ class VCenterAuto:
             print(f"Failed to clone VM  {src_vm_name}. Status code: {response.status_code}")
 
 
-vmconnect = VCenterAuto(vcenter_ip='192.168.49.20',username='administrator@vsphere.local',password='StartVcenter1!.')
+vmconnect = VCenterAuto(vcenter_ip='',username='',password='')
 
 ############################################################################################################################################
 #                                                           Example Usage                                                                  #
